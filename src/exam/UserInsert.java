@@ -17,6 +17,7 @@ public class UserInsert {
 		 * Statment, PreparedStatement 차이 
 		 * - Statment는 sql을 한번만 실행함 그러나 PreparedStatement는 반복쿼리가 가능 
 		 * - PreparedStatement는 sql injection 에 안전하다 
+		 * ㅇㄴㄹㅇㄹㄴㅇㄹㅇㄴ
 		 */
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
